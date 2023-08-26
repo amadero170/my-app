@@ -12,7 +12,7 @@ imageNames.push(`${i}.jpeg`)
 imgnames()
   return (
 
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24">
 
      
 
@@ -27,6 +27,7 @@ imgnames()
             <Image
                src={`/${imageName}`}
               alt={`Image ${index + 1}`}
+              className="w-full "
               width={300}
               height={200}
             />
