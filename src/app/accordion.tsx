@@ -5,14 +5,15 @@ const Accordion = () => {
     const headings = document.querySelectorAll('.accordion-container h2');
     headings.forEach((heading) => {
       heading.addEventListener('click', () => {
-        heading.nextElementSibling.classList.toggle('hidden');
+        if(heading.nextElementSibling)
+            {heading.nextElementSibling.classList.toggle('hidden')};
       });
     });
   }, []);
 
   return (
     <div className="accordion-container">
-        <h2 className="inline-block w-auto inline-block w-auto bg-gray-500 hover:bg-grey-700 text-white font-bold py-1 px-4 my-1 rounded">Generales </h2>
+        <h2 className="bg-gray-500 hover:bg-grey-700 text-white font-bold py-1 px-4 my-1 rounded">Generales </h2>
         <p className="hidden">TOYOTA, 4 RUNNER Limited, 2005, V8 – 4.7, Automática, 4X2. Precio: $ 160,000 pesos.</p>
         <h2 className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-1 px-4 my-1 rounded">Legal</h2>
         <p className="hidden">Nacional, Factura de agencia, todo pagado hasta 2023, certificado de verificación responsable de Jalisco 2022 y 2023, placas de Jalisco (se hace cambio de propietario en Vallarta o se entrega con baja, no presto placas, sin excepción)</p>
