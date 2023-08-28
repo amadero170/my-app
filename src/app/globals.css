@@ -18,10 +18,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  padding:0 2rem;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    text-align: left;
+}
+h2{
+  font-weight: 800;
+display: block;
+width: fit-content;
+}
+.accordion-container{
+  width:100%
 }
