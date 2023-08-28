@@ -33,7 +33,7 @@ const Accordion = () => {
         <p className="hidden">Pintura exterior, asiento del conductor necesita tapicera en una parte y el asiento del copiloto necesita costura.</p>
         <h2 className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-1 px-4 my-1 rounded">Detalles mecánicos </h2>
         <p className="hidden">Ninguno, tu mecánico es bienvenido a revisar la unidad.</p>
-        <h2 className="inline-block w-auto bg-gray-500 hover:bg-gray-700 text-white font-bold py-1 px-4 my-1 rounded">Detalles generales simples </h2>
+        <h2 className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-1 px-4 my-1 rounded">Detalles generales simples </h2>
         <p className="hidden">El botón para bajar la ventana del copiloto no siempre funciona.</p>
         <h2 className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-1 px-4 my-1 rounded">Contacto </h2>
         <p className="hidden">Rubén Contreras, 322-266-6158 (de preferencia contactar por WhatssApp)</p>
